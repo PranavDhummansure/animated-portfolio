@@ -178,11 +178,19 @@ gsap.from('.harry h2',{
   y:50,
   
 })
-gsap.from('.para p',{
+gsap.from('.para #par',{
   opacity: 0,
   duration: 3.7,
  
   delay: 9.4,
+  y:50,
+  
+})
+gsap.from('#space',{
+  opacity: 0,
+  duration: 3,
+ 
+  delay: 10.0,
   y:50,
   
 })
