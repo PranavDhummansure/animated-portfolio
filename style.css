@@ -79,7 +79,7 @@
 }
 
 #box {
-    height: 1220px;
+    height: 1020px;
     width:99%;
     background-color: rgb(104, 14, 84);
     padding: 8px;
@@ -95,6 +95,19 @@
     
     
 }
+
+ #in video {
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   object-position: center;
+   z-index: -199;
+   opacity: 0.4;
+ }
+
+
+
 #box::after{
     content: "";
     position:absolute;
@@ -157,7 +170,18 @@
     z-index: -1;
     
   }
-  
+  #rocksmall {
+    width: 150px; /* Adjust size as needed */
+    height: 150px; /* Ensure this is the same as width */
+    border-radius: 50%;
+   
+    right: 0;
+    bottom: 0;
+    
+    position: absolute;
+    z-index: -1;
+    
+  }
 
   #circle-containers {
     width: 260px; /* Adjust size as needed */
@@ -167,8 +191,8 @@
     
     align-items: center;
     justify-content: center;
-    margin-top: -170px;
-    z-index: 6;
+    margin-top: -120px;
+    z-index: -1;
     position: absolute;
     margin-left: -300px;
     
@@ -185,7 +209,7 @@
     height: 100%;
     object-fit: cover;
     animation: gamma1 linear ;
-    z-index: 6;
+    z-index: -1;
     position: absolute;
    
     
@@ -197,17 +221,20 @@ nav {
     width: 100%;
    
   
-    display: inline-flex;
-    align-items: center;
-    align-items: start;
-    position: relative;
-    z-index: 100;
-    justify-content: space-around;
     
+    align-items: center;
+   
+    
+    
+    justify-content: space-around;
+   
+    position: relative;
+    top: 0;
+    z-index: 1;
     
   }
   nav .rightnav {
-    align-items: start;
+    
     display: flex;
     align-items: center;
     gap: 1vw;
@@ -280,6 +307,7 @@ nav {
     position: relative;
     margin-top: 20px;
     margin-left: 130px;
+    z-index: 12;
 
     
 }
@@ -293,7 +321,7 @@ nav {
 .golamain {
   padding-top: 90px;
   position: relative;
-  z-index: 12;
+  z-index: -1;
   margin-left: -350px;
   
  
@@ -453,9 +481,10 @@ nav {
   justify-content: space-around;
   z-index: 12;
   position: relative;
+  
 }
 .para:hover p{
-  color: #d828c1;
+  color: #ffffff;
   transition: 0.4s ease;
 
 }
@@ -478,7 +507,8 @@ nav {
   width: 70%;
   padding-left: 17%;
   font-size: 4vh;
-  color: #ffffff;
+  color: #ff34f5;
+  z-index: 12;
 }
 
 .harry h2 a {
@@ -487,7 +517,7 @@ nav {
 }
 .para p a {
   text-decoration: none;
-  color: #dadada;
+  color: #ff34f5;
 }
 
 
@@ -496,7 +526,7 @@ nav {
 .para #profilepic {
   height: 350px;
   width: 350px;
-  background-color: #a0fe0a;
+  background-color: transparent;
   border-radius: 50%;
 }
 .para #profilepic img{
@@ -632,7 +662,7 @@ nav {
   .elem h2 a {
     font-size: 2vw;
     position: relative;
-    z-index: 9;
+    z-index: 9999999999999999999999999999999999999;
     text-decoration: none;
     color: #9a03ff;
   }
@@ -667,7 +697,7 @@ nav {
     /* background-color: red; */
     border-radius: 15px;
     position: fixed;
-    z-index: 99;
+    z-index: 999999999999999999999999999888888888888889;
     left: 50%;
     top: 25%;
     display: none;
@@ -1059,6 +1089,52 @@ nav {
     z-index: 9;
   
   }
+  #page4 #skills img {
+    height: 100%;
+    width: 100%;
+    background-image: cover;
+    background-image: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    position: absolute;
+    z-index: -4;
+    opacity: 0.3;
+
+  }
+  main{
+  height: 100vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top:0;
+  }
+  .astronaut {
+    height: 700px;
+    width: 400px;
+
+   
+    position: absolute;
+    z-index: 9999999999999999999999999999;
+    cursor: pointer;
+    animation: astrnt 20s linear infinite ;
+  }
+  .astronaut #astro {
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+     position: absolute;
+     z-index: 9999999999999999999999999999;
+     cursor: pointer;
+     animation: astrnt 20s linear infinite ;
+   }
+  @keyframes astrnt {
+    
+    100%{
+       rotate : 360deg;
+    }
+  }
   #page4 .topic {
     font-size: 20vh;
     align-items: center;
@@ -1350,6 +1426,7 @@ z-index: 90;
   z-index: 9;
 
 }
+
 #footer {
   position: fixed;
   height: 105vh;
@@ -1363,15 +1440,17 @@ z-index: 90;
   justify-content: flex-end;
   flex-direction: column;
   padding: 1vw 3vw;
-  background-image: url('contactbg.jpeg');
-  object-fit: cover;
-  background-size: cover;
-  
-  background-repeat: no-repeat;
-  background-image: center;
  
 }
-
+#footer video {
+  position: absolute;
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   object-position: center;
+   z-index: -199;
+   opacity: 0.5;
+}
 #footer h1 {
   font-size: 23vw;
   font-family: bigone;
@@ -1498,9 +1577,9 @@ z-index: 90;
 #string3 {
   margin-top: -80px;
 }
-#asteroids {
-  width: 50px; /* Adjust size as needed */
-  height: 50px; /* Ensure this is the same as width */
+#asteroids img {
+  width: 250px; /* Adjust size as needed */
+  height: 250px; /* Ensure this is the same as width */
  
  
   left: 0;
@@ -1510,9 +1589,9 @@ z-index: 90;
   z-index: -1;
   
 }
-#asteroids1 {
-  width: 20px; /* Adjust size as needed */
-  height: 20px; /* Ensure this is the same as width */
+#asteroids1 img {
+  width: 220px; /* Adjust size as needed */
+  height: 220px; /* Ensure this is the same as width */
   
  
   left: 0;
@@ -1522,9 +1601,9 @@ z-index: 90;
   z-index: -1;
   
 }
-#asteroids2 {
-  width: 70px; /* Adjust size as needed */
-  height: 70px; /* Ensure this is the same as width */
+#asteroids2 img {
+  width: 470px; /* Adjust size as needed */
+  height: 470px; /* Ensure this is the same as width */
 
  
   left: 0;
@@ -1534,9 +1613,9 @@ z-index: 90;
   z-index: -1;
   
 }
-#asteroids3 {
-  width: 50px; /* Adjust size as needed */
-  height: 50px; /* Ensure this is the same as width */
+#asteroids3 img {
+  width: 350px; /* Adjust size as needed */
+  height: 350px; /* Ensure this is the same as width */
  
  
   left: 0;
@@ -1546,9 +1625,9 @@ z-index: 90;
   z-index: -1;
   
 }
-#asteroids4 {
-  width: 10px; /* Adjust size as needed */
-  height: 10px; /* Ensure this is the same as width */
+#asteroids4 img {
+  width: 110px; /* Adjust size as needed */
+  height: 110px; /* Ensure this is the same as width */
 
  
   left: 0;
@@ -1558,9 +1637,9 @@ z-index: 90;
   z-index: -1;
   
 }
-#asteroids5 {
-  width: 60px; /* Adjust size as needed */
-  height: 60px; /* Ensure this is the same as width */
+#asteroids5 img {
+  width: 260px; /* Adjust size as needed */
+  height: 260px; /* Ensure this is the same as width */
 
  
   left: 0;
@@ -1570,9 +1649,9 @@ z-index: 90;
   z-index: -1;
   
 }
-#asteroids6 {
-  width: 30px; /* Adjust size as needed */
-  height: 30px; /* Ensure this is the same as width */
+#asteroids6 img {
+  width: 330px; /* Adjust size as needed */
+  height: 330px; /* Ensure this is the same as width */
 
  
   left: 0;
@@ -1587,6 +1666,7 @@ z-index: 90;
   position: relative;
   z-index: 12;
   margin-left: -350px;
+  
 }
 .ast #asteroids0 img {
   width: 250px; /* Adjust size as needed */
@@ -1650,4 +1730,56 @@ z-index: 90;
   
 }
 
+#loader {
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  transition: all ease 3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#loader h1 {
+  font-size: 4vw;
+  color: transparent;
+  background: linear-gradient(to right, rgb(231, 103, 248), #85027e);
+  -webkit-background-clip: text;
+  position: absolute;
+  opacity: 0;
+  animation-name: load;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-timing-function: linear;
+}
+#loader h1:nth-child(2) {
+  animation-delay: 2s;
+}
+#loader h1:nth-child(3) {
+  animation-delay: 3s;
+}
+
+@keyframes load {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  #loader h1 {
+    font-size: 9vw;
+  }
+}
 

@@ -1,11 +1,15 @@
+
 gsap.to('.info #circle-containers',{
    x: 980,
    
    yoyo: true,
    duration: 2,
-   delay: 5.5,
+   delay: 8.5,
    ease: 'elastic',
 })
+
+
+
 gsap.to(' #rock',{
   x:300,
   y:1800,
@@ -146,14 +150,25 @@ gsap.to(' #rock',{
 gsap.from('#string0',{
   opacity: 0,
   duration: 3.7,
-  delay: 6.5,
+  delay: 9.5,
   y:50,
+})
+gsap.to('#space',{
+  opacity: 0,
+  duration: 3,
+  delay: 10.5,
+  y: 80,
+  
+  
+  
+ 
+  
 })
 
 gsap.from('nav',{
   opacity: 0,
   duration: 3.7,
-  delay: 6.5,
+  delay: 9.5,
   y:50, 
 })
 
@@ -161,7 +176,7 @@ gsap.from('#inf',{
     opacity: 0,
     duration: 3.7,
    
-    delay: 5.8,
+    delay: 8.8,
     y:50,
     
 })
@@ -169,15 +184,15 @@ gsap.from('.harry h2',{
   opacity: 0,
   duration: 3.7,
  
-  delay: 6.5,
+  delay: 9.5,
   y:50,
   
 })
 gsap.from('.para p',{
   opacity: 0,
-  duration: 5,
+  duration: 3.7,
  
-  delay: 6.4,
+  delay: 9.4,
   y:50,
   
 })
@@ -185,7 +200,7 @@ gsap.from('.para #profilepic ',{
   opacity: 0,
   duration: 5,
  
-  delay: 6.3,
+  delay: 9.3,
   y:50,
   
 })
@@ -269,7 +284,7 @@ gsap.to('#GOLA1',{
   
   ease: "power4.in",
   repeat: 0,
-  delay: 3.1,
+  delay: 6.1,
   
 });
 gsap.to('#GOLA1',{
@@ -282,12 +297,12 @@ gsap.to('#GOLA1',{
  });
 gsap.to('#GOLA1',{
 
-   y: 570,
+   y: 450,
    duration: 1,
    
    ease: 'elastic',
    repeat: 0,
-   delay: 5.4,
+   delay: 8.4,
  });
 gsap.to('#GOLA2',{
  x:630,
@@ -296,7 +311,7 @@ gsap.to('#GOLA2',{
   
   ease: "power4.in",
   repeat: 0,
-  delay: 2.8,
+  delay: 5.8,
 });
 gsap.to('#GOLA2',{
   rotateZ:360,
@@ -308,12 +323,12 @@ gsap.to('#GOLA2',{
  });
 gsap.to('#GOLA2',{
 
-   y: 570,
+   y: 440,
    duration: 1,
    
    ease: 'elastic',
    repeat: 0,
-   delay: 5.3,
+   delay: 8.3,
  });
 gsap.to('#GOLA3',{
  x:690,
@@ -322,7 +337,7 @@ gsap.to('#GOLA3',{
   
   ease: "power4.in",
   repeat: 0,
-  delay: 2.5,
+  delay: 5.5,
 });
 gsap.to('#GOLA3',{
   rotateZ:360,
@@ -334,12 +349,12 @@ gsap.to('#GOLA3',{
  });
 gsap.to('#GOLA3',{
 
-   y: 550,
+   y: 430,
    duration: 1,
    
    ease: 'elastic',
    repeat: 0,
-   delay: 5.2,
+   delay: 8.2,
  });
 gsap.to('#GOLA4',{
  x:780,
@@ -348,7 +363,7 @@ gsap.to('#GOLA4',{
   
   ease: "power4.in",
   repeat: 0,
-  delay: 2.2,
+  delay: 5.2,
 });
 gsap.to('#GOLA4',{
   rotateZ:360,
@@ -360,12 +375,12 @@ gsap.to('#GOLA4',{
  });
 gsap.to('#GOLA4',{
  
-   y: 560,
+   y: 430,
    duration: 1,
    
    ease: 'elastic',
    repeat: 0,
-   delay: 5.1,
+   delay: 8.1,
  });
 gsap.to('#GOLA5',{
  x:830,
@@ -374,7 +389,7 @@ gsap.to('#GOLA5',{
 
   ease: "power4.in",
   repeat: 0,
-  delay: 1.9,
+  delay: 4.9,
 });
 gsap.to('#GOLA5',{
   rotateZ:360,
@@ -386,12 +401,12 @@ gsap.to('#GOLA5',{
  });
 gsap.to('#GOLA5',{
   
-   y: 480,
+   y: 360,
    duration: 1,
  
    ease: 'elastic',
    repeat: 0,
-   delay: 5.0,
+   delay: 8.0,
  });
 gsap.to('#GOLA6',{
  x:1045,
@@ -400,7 +415,7 @@ gsap.to('#GOLA6',{
   
   ease: "power4.in",
   repeat: 0,
-  delay: 1.6,
+  delay: 4.6,
 });
 gsap.to('#GOLA6',{
  rotation:45,
@@ -413,12 +428,12 @@ gsap.to('#GOLA6',{
 });
 gsap.to('#GOLA6',{
  
-   y: 480,
+   y: 360,
    duration: 1,
    
    ease: 'elastic',
    repeat: 0,
-   delay: 4.9,
+   delay: 7.9,
  });
 gsap.to('#GOLA7',{ //sun
  x:330  ,
@@ -427,24 +442,24 @@ gsap.to('#GOLA7',{ //sun
   
   ease: "power4.in",
   repeat: 0,
-  delay: 3.4 ,
+  delay: 6.4 ,
 });
 gsap.to('#GOLA7',{
   rotateZ:360,
   repeat:-1,
-  duration:25,
+  duration:65,
   ease:'linear',
   delay:0,
    
  });
 gsap.to('#GOLA7',{ //sun
   
-   y: 480,
+   y: 360,
    duration: 1,
    
    ease: 'elastic',
    repeat: 0,
-   delay: 5.5,
+   delay: 8.5,
  });
 gsap.to('#GOLA8',{
  x:1360,
@@ -452,7 +467,7 @@ gsap.to('#GOLA8',{
   duration: 1,
   ease: "power4.in",
   repeat: 0,
-  delay: 1.3,
+  delay: 4.3,
 });
 gsap.to('#GOLA8',{
   rotateZ:360,
@@ -464,12 +479,12 @@ gsap.to('#GOLA8',{
  });
 gsap.to('#GOLA8',{
   
-   y: 500,
+   y: 370,
    duration: 1,
  
    ease: 'elastic',
    repeat: 0,
-   delay: 4.7,
+   delay: 7.7,
  });
 gsap.to('#GOLA9',{
  x:1500,
@@ -478,7 +493,7 @@ gsap.to('#GOLA9',{
   
   ease: "power4.in",
   repeat: 0,
-  delay: 1,
+  delay: 4,
 });
 gsap.to('#GOLA9',{
   rotateZ:360,
@@ -490,12 +505,12 @@ gsap.to('#GOLA9',{
  });
 gsap.to('#GOLA9',{ //sun
  
-   y: 500,
+   y: 380,
    duration: 1,
    
    ease: 'elastic',
    repeat: 0,
-   delay: 4.6,
+   delay: 7.6,
  });
  gsap.to('#blade1',{
   rotateZ: 360,
@@ -889,7 +904,7 @@ gsap.to('#asteroids0',{
   
     duration: 1,
     
-  delay: 8.0,
+  delay: 11.0,
   repeat:2,
   ease: 'ease-in',
 })
@@ -900,7 +915,7 @@ gsap.to(' .ast #asteroids01',{
   
     duration: 2,
     
-  delay: 8.2,
+  delay: 11.2,
   repeat:2,
   ease: 'p',
 })
@@ -911,7 +926,7 @@ gsap.to(' .ast #asteroids02',{
   
     duration: 1,
     
-  delay: 8.1,
+  delay: 11.1,
   repeat:2,
   ease: 'ease-in',
 })
@@ -922,7 +937,7 @@ gsap.to('.ast #asteroids03',{
   
     duration: 2,
     
-  delay: 8.5,
+  delay: 11.5,
   repeat:2,
   ease: 'ease-in',
 })
@@ -933,7 +948,7 @@ gsap.to('.ast #asteroids04',{
   
     duration: 1,
     
-  delay: 8.4,
+  delay: 11.4,
   repeat:2,
   ease: 'ease-in',
 })
@@ -944,7 +959,7 @@ gsap.to('.ast #asteroids05',{
   
     duration: 0.5,
     
-  delay: 8.9,
+  delay: 11.9,
   repeat:2,
   ease: 'ease-in',
 })
@@ -955,7 +970,179 @@ gsap.to('.ast #asteroids06',{
   
     duration: 1,
     
-  delay: 8.6,
+  delay: 11.6,
   repeat:2,
   ease: 'ease-in',
 })
+
+
+
+gsap.to(' #rocksmall',{
+  x:-300,
+  y:-1800,
+
+  
+    duration: 20,
+    rotateZ:360,
+  delay: 0,
+  repeat:0,
+  ease: 'ease-in',
+})
+gsap.to(' #rocksmall',{
+  x:-400,
+  y:80,
+
+  
+    duration: 10,
+  delay: 20,
+  
+  
+  rotateZ:0,
+  repeat:0,
+  ease: 'ease-in',
+})
+gsap.to(' #rocksmall',{
+  x:-100,
+  y: -80,
+  
+    duration: 10,
+    rotateZ:360,
+  delay: 30,
+  repeat:0,
+  ease: 'ease-in',
+})
+gsap.to(' #rocksmall',{
+  x:-500,
+  y: 380,
+  
+    duration: 10,
+  delay: 40,
+  rotateZ:0,
+  
+  repeat:0,
+  ease: 'ease-in',
+})
+gsap.to(' #rocksmall',{
+  x:-300,
+  y:-800,
+
+  
+    duration: 20,
+    rotateZ:360,
+  delay: 50,
+  repeat:0,
+  ease: 'ease-in',
+})
+gsap.to(' #rocksmall',{
+  x:-400,
+  y:80,
+
+  
+    duration: 10,
+  delay: 70,
+  
+  
+  rotateZ:0,
+  repeat:0,
+  ease: 'ease-in',
+})
+gsap.to(' #rocksmall',{
+  x:100,
+  y: -80,
+  
+    duration: 10,
+    rotateZ:360,
+  delay: 80,
+  repeat:0,
+  ease: 'ease-in',
+})
+gsap.to(' #rocksmall',{
+  x:-500,
+  y: 30,
+  
+    duration: 10,
+  delay: 90,
+  rotateZ:0,
+  
+  repeat:0,
+  ease: 'ease-in',
+})
+gsap.to(' #rocksmall',{
+  x:-300,
+  y:-100,
+
+  
+    duration: 20,
+    rotateZ:360,
+  delay: 100,
+  repeat:0,
+  ease: 'ease-in',
+})
+gsap.to(' #rocksmall',{
+  x:-400,
+  y:80,
+
+  
+    duration: 20,
+  delay: 120,
+  
+  
+  rotateZ:0,
+  repeat:0,
+  ease: 'ease-in',
+})
+gsap.to(' #rocksmall',{
+  x:100,
+  y: -90,
+  
+    duration: 10,
+    rotateZ:360,
+  delay: 130,
+  repeat:0,
+  ease: 'ease-in',
+})
+gsap.to(' #rocksmall',{
+  x:-500,
+  y: 380,
+  
+    duration: 10,
+  delay: 140,
+  rotateZ:0,
+  
+  repeat:0,
+  ease: 'ease-in',
+})
+
+console.log("random movement of the astro");
+
+let ball=document.querySelector(".astronaut");
+
+let main= document.getElementsByTagName("main")[0];
+
+ball.addEventListener("click", function () {
+
+let randomWidth = `${Math.floor(Math.random() * (main.offsetWidth -100))}px`;
+
+let randomHeight = `${Math.floor(
+
+Math.random()* (main.offsetHeight - 100)
+
+)}px`;
+
+ball.style.left = `${randomWidth}`;
+
+ball.style.top = `${randomHeight}`;
+
+});
+
+
+
+function loaderAnimation() {
+  var loader = document.querySelector("#loader")
+  setTimeout(function () {
+      loader.style.top = "-100%"
+  }, 4200)
+}
+
+
+loaderAnimation()
