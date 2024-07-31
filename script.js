@@ -153,17 +153,7 @@ gsap.from('#string0',{
   delay: 9.5,
   y:50,
 })
-gsap.to('#space',{
-  opacity: 0,
-  duration: 3,
-  delay: 10.5,
-  y: 80,
-  
-  
-  
- 
-  
-})
+
 
 gsap.from('nav',{
   opacity: 0,
