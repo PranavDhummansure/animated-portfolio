@@ -183,9 +183,10 @@ gsap.from('.para #par',{
   duration: 3.7,
  
   delay: 9.4,
-  y:50,
+  y:10,
   
 })
+
 gsap.from('#space',{
   opacity: 0,
   duration: 3,
