@@ -481,6 +481,9 @@ nav {
   justify-content: space-around;
   z-index: 12;
   position: relative;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  background-size: 30px;
   
 }
 .para:hover p{

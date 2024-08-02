@@ -178,7 +178,16 @@ gsap.from('.harry h2',{
   y:50,
   
 })
+
 gsap.from('.para #par',{
+  opacity: 0,
+  duration: 3.7,
+ 
+  delay: 9.4,
+  y:10,
+  
+})
+gsap.from('.para',{
   opacity: 0,
   duration: 3.7,
  
