@@ -3,7 +3,7 @@
 link-" https://pranavdhummansure.github.io/animated-portfolio/"
 
 
-SOLE PURPOSE OF THIS PORTFOLIO IS TO POTRAY THE SKILLS , LIKE HOW I LEARN'T ANIMATIONS USING (css,gsap,locomotivejs,scrolltrigger,swiperjs etc...)
+SOLE PURPOSE OF THIS PORTFOLIO IS TO POTRAY MY SKILLS , LIKE HOW I LEARN'T ANIMATIONS USING (css,gsap,locomotivejs,scrolltrigger,swiperjs etc...)
 
 
 this is not my main portfolio--
